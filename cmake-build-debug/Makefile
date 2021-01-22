@@ -127,32 +127,59 @@ CECS_282\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\build
 .PHONY : CECS_282\fast
 
-main.obj: main.cpp.obj
+Lecture_Notes\Intro_to_Header\Can.obj: Lecture_Notes\Intro_to_Header\Can.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Lecture_Notes\Intro_to_Header\Can.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+Lecture_Notes\Intro_to_Header\Can.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.obj
+.PHONY : Lecture_Notes\Intro_to_Header\Can.cpp.obj
 
-main.i: main.cpp.i
+Lecture_Notes\Intro_to_Header\Can.i: Lecture_Notes\Intro_to_Header\Can.cpp.i
 
-.PHONY : main.i
+.PHONY : Lecture_Notes\Intro_to_Header\Can.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\main.cpp.i
-.PHONY : main.cpp.i
+Lecture_Notes\Intro_to_Header\Can.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.i
+.PHONY : Lecture_Notes\Intro_to_Header\Can.cpp.i
 
-main.s: main.cpp.s
+Lecture_Notes\Intro_to_Header\Can.s: Lecture_Notes\Intro_to_Header\Can.cpp.s
 
-.PHONY : main.s
+.PHONY : Lecture_Notes\Intro_to_Header\Can.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\main.cpp.s
-.PHONY : main.cpp.s
+Lecture_Notes\Intro_to_Header\Can.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.s
+.PHONY : Lecture_Notes\Intro_to_Header\Can.cpp.s
+
+Lecture_Notes\Intro_to_Header\CanMain.obj: Lecture_Notes\Intro_to_Header\CanMain.cpp.obj
+
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.obj
+
+# target to build an object file
+Lecture_Notes\Intro_to_Header\CanMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.obj
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.cpp.obj
+
+Lecture_Notes\Intro_to_Header\CanMain.i: Lecture_Notes\Intro_to_Header\CanMain.cpp.i
+
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.i
+
+# target to preprocess a source file
+Lecture_Notes\Intro_to_Header\CanMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.i
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.cpp.i
+
+Lecture_Notes\Intro_to_Header\CanMain.s: Lecture_Notes\Intro_to_Header\CanMain.cpp.s
+
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.s
+
+# target to generate assembly for a file
+Lecture_Notes\Intro_to_Header\CanMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.s
+.PHONY : Lecture_Notes\Intro_to_Header\CanMain.cpp.s
 
 # Help Target
 help:
@@ -163,9 +190,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CECS_282
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Lecture_Notes/Intro_to_Header/Can.obj
+	@echo ... Lecture_Notes/Intro_to_Header/Can.i
+	@echo ... Lecture_Notes/Intro_to_Header/Can.s
+	@echo ... Lecture_Notes/Intro_to_Header/CanMain.obj
+	@echo ... Lecture_Notes/Intro_to_Header/CanMain.i
+	@echo ... Lecture_Notes/Intro_to_Header/CanMain.s
 .PHONY : help
 
 

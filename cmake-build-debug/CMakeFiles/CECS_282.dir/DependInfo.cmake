@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ashur/CLionProjects/CECS 282/main.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/main.cpp.obj"
+  "C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/Can.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
+  "C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/CanMain.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

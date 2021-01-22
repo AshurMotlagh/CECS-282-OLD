@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/main.cpp">
+		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/Can.cpp">
+			<Option target="CECS_282"/>
+		</Unit>
+		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/Can.h">
+			<Option target="CECS_282"/>
+		</Unit>
+		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/CanMain.cpp">
 			<Option target="CECS_282"/>
 		</Unit>
 		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/CMakeLists.txt">
