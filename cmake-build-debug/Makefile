@@ -127,6 +127,33 @@ CECS_282\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\build
 .PHONY : CECS_282\fast
 
+Labs\CanLab.obj: Labs\CanLab.cpp.obj
+
+.PHONY : Labs\CanLab.obj
+
+# target to build an object file
+Labs\CanLab.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.obj
+.PHONY : Labs\CanLab.cpp.obj
+
+Labs\CanLab.i: Labs\CanLab.cpp.i
+
+.PHONY : Labs\CanLab.i
+
+# target to preprocess a source file
+Labs\CanLab.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.i
+.PHONY : Labs\CanLab.cpp.i
+
+Labs\CanLab.s: Labs\CanLab.cpp.s
+
+.PHONY : Labs\CanLab.s
+
+# target to generate assembly for a file
+Labs\CanLab.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.s
+.PHONY : Labs\CanLab.cpp.s
+
 Lecture_Notes\Intro_to_Header\Can.obj: Lecture_Notes\Intro_to_Header\Can.cpp.obj
 
 .PHONY : Lecture_Notes\Intro_to_Header\Can.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CECS_282
+	@echo ... Labs/CanLab.obj
+	@echo ... Labs/CanLab.i
+	@echo ... Labs/CanLab.s
 	@echo ... Lecture_Notes/Intro_to_Header/Can.obj
 	@echo ... Lecture_Notes/Intro_to_Header/Can.i
 	@echo ... Lecture_Notes/Intro_to_Header/Can.s

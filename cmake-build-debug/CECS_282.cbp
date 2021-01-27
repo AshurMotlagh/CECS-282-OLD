@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Labs/CanLab.cpp">
+			<Option target="CECS_282"/>
+		</Unit>
+		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Labs/CanLab.h">
+			<Option target="CECS_282"/>
+		</Unit>
 		<Unit filename="C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/Can.cpp">
 			<Option target="CECS_282"/>
 		</Unit>
