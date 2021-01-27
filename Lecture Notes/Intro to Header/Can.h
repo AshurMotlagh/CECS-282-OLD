@@ -1,5 +1,7 @@
-#include <string>
+#ifndef CAN_H
+#define CAN_H
 
+#include <string>
 using namespace std;
 
 class Can{
@@ -11,7 +13,5 @@ public:
     Can(string, int);
     void display();
 };
-//#ifndef UNTITLED_CAN_H
-//#define UNTITLED_CAN_H
-//
-//#endif //UNTITLED_CAN_H
+#endif
+
