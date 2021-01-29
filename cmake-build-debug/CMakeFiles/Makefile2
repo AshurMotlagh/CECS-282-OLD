@@ -78,12 +78,12 @@ clean: CMakeFiles\CECS_282.dir\clean
 CMakeFiles\CECS_282.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4 "Built target CECS_282"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target CECS_282"
 .PHONY : CMakeFiles\CECS_282.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\CECS_282.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\CECS_282.dir\rule

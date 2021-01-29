@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/ashur/CLionProjects/CECS 282/Labs/CanLab.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.obj"
   "C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/Can.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
   "C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/CanMain.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.obj"
+  "C:/Users/ashur/CLionProjects/CECS 282/Lecture Notes/Intro to Header/SixPack.cpp" "C:/Users/ashur/CLionProjects/CECS 282/cmake-build-debug/CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

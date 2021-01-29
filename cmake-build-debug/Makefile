@@ -208,6 +208,33 @@ Lecture_Notes\Intro_to_Header\CanMain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.s
 .PHONY : Lecture_Notes\Intro_to_Header\CanMain.cpp.s
 
+Lecture_Notes\Intro_to_Header\SixPack.obj: Lecture_Notes\Intro_to_Header\SixPack.cpp.obj
+
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.obj
+
+# target to build an object file
+Lecture_Notes\Intro_to_Header\SixPack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.obj
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.cpp.obj
+
+Lecture_Notes\Intro_to_Header\SixPack.i: Lecture_Notes\Intro_to_Header\SixPack.cpp.i
+
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.i
+
+# target to preprocess a source file
+Lecture_Notes\Intro_to_Header\SixPack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.i
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.cpp.i
+
+Lecture_Notes\Intro_to_Header\SixPack.s: Lecture_Notes\Intro_to_Header\SixPack.cpp.s
+
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.s
+
+# target to generate assembly for a file
+Lecture_Notes\Intro_to_Header\SixPack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s
+.PHONY : Lecture_Notes\Intro_to_Header\SixPack.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -226,6 +253,9 @@ help:
 	@echo ... Lecture_Notes/Intro_to_Header/CanMain.obj
 	@echo ... Lecture_Notes/Intro_to_Header/CanMain.i
 	@echo ... Lecture_Notes/Intro_to_Header/CanMain.s
+	@echo ... Lecture_Notes/Intro_to_Header/SixPack.obj
+	@echo ... Lecture_Notes/Intro_to_Header/SixPack.i
+	@echo ... Lecture_Notes/Intro_to_Header/SixPack.s
 .PHONY : help
 
 
