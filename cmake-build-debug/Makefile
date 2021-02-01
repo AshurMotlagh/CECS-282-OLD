@@ -43,19 +43,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\ashur\CLionProjects\CECS 282"
+CMAKE_SOURCE_DIR = C:\Users\ashur\CLionProjects\CECS-282
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug"
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -74,7 +74,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -235,6 +235,87 @@ Lecture_Notes\Intro_to_Header\SixPack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s
 .PHONY : Lecture_Notes\Intro_to_Header\SixPack.cpp.s
 
+Projects\Solitare_Prime\Card.obj: Projects\Solitare_Prime\Card.cpp.obj
+
+.PHONY : Projects\Solitare_Prime\Card.obj
+
+# target to build an object file
+Projects\Solitare_Prime\Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.obj
+.PHONY : Projects\Solitare_Prime\Card.cpp.obj
+
+Projects\Solitare_Prime\Card.i: Projects\Solitare_Prime\Card.cpp.i
+
+.PHONY : Projects\Solitare_Prime\Card.i
+
+# target to preprocess a source file
+Projects\Solitare_Prime\Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.i
+.PHONY : Projects\Solitare_Prime\Card.cpp.i
+
+Projects\Solitare_Prime\Card.s: Projects\Solitare_Prime\Card.cpp.s
+
+.PHONY : Projects\Solitare_Prime\Card.s
+
+# target to generate assembly for a file
+Projects\Solitare_Prime\Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.s
+.PHONY : Projects\Solitare_Prime\Card.cpp.s
+
+Projects\Solitare_Prime\Deck.obj: Projects\Solitare_Prime\Deck.cpp.obj
+
+.PHONY : Projects\Solitare_Prime\Deck.obj
+
+# target to build an object file
+Projects\Solitare_Prime\Deck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj
+.PHONY : Projects\Solitare_Prime\Deck.cpp.obj
+
+Projects\Solitare_Prime\Deck.i: Projects\Solitare_Prime\Deck.cpp.i
+
+.PHONY : Projects\Solitare_Prime\Deck.i
+
+# target to preprocess a source file
+Projects\Solitare_Prime\Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.i
+.PHONY : Projects\Solitare_Prime\Deck.cpp.i
+
+Projects\Solitare_Prime\Deck.s: Projects\Solitare_Prime\Deck.cpp.s
+
+.PHONY : Projects\Solitare_Prime\Deck.s
+
+# target to generate assembly for a file
+Projects\Solitare_Prime\Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.s
+.PHONY : Projects\Solitare_Prime\Deck.cpp.s
+
+Projects\Solitare_Prime\SPMain.obj: Projects\Solitare_Prime\SPMain.cpp.obj
+
+.PHONY : Projects\Solitare_Prime\SPMain.obj
+
+# target to build an object file
+Projects\Solitare_Prime\SPMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj
+.PHONY : Projects\Solitare_Prime\SPMain.cpp.obj
+
+Projects\Solitare_Prime\SPMain.i: Projects\Solitare_Prime\SPMain.cpp.i
+
+.PHONY : Projects\Solitare_Prime\SPMain.i
+
+# target to preprocess a source file
+Projects\Solitare_Prime\SPMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.i
+.PHONY : Projects\Solitare_Prime\SPMain.cpp.i
+
+Projects\Solitare_Prime\SPMain.s: Projects\Solitare_Prime\SPMain.cpp.s
+
+.PHONY : Projects\Solitare_Prime\SPMain.s
+
+# target to generate assembly for a file
+Projects\Solitare_Prime\SPMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.s
+.PHONY : Projects\Solitare_Prime\SPMain.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -256,6 +337,15 @@ help:
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.obj
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.i
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.s
+	@echo ... Projects/Solitare_Prime/Card.obj
+	@echo ... Projects/Solitare_Prime/Card.i
+	@echo ... Projects/Solitare_Prime/Card.s
+	@echo ... Projects/Solitare_Prime/Deck.obj
+	@echo ... Projects/Solitare_Prime/Deck.i
+	@echo ... Projects/Solitare_Prime/Deck.s
+	@echo ... Projects/Solitare_Prime/SPMain.obj
+	@echo ... Projects/Solitare_Prime/SPMain.i
+	@echo ... Projects/Solitare_Prime/SPMain.s
 .PHONY : help
 
 
