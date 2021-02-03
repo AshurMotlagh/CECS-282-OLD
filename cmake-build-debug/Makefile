@@ -235,6 +235,33 @@ Lecture_Notes\Intro_to_Header\SixPack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s
 .PHONY : Lecture_Notes\Intro_to_Header\SixPack.cpp.s
 
+Lecture_Notes\random\random.obj: Lecture_Notes\random\random.cpp.obj
+
+.PHONY : Lecture_Notes\random\random.obj
+
+# target to build an object file
+Lecture_Notes\random\random.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\random\random.cpp.obj
+.PHONY : Lecture_Notes\random\random.cpp.obj
+
+Lecture_Notes\random\random.i: Lecture_Notes\random\random.cpp.i
+
+.PHONY : Lecture_Notes\random\random.i
+
+# target to preprocess a source file
+Lecture_Notes\random\random.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\random\random.cpp.i
+.PHONY : Lecture_Notes\random\random.cpp.i
+
+Lecture_Notes\random\random.s: Lecture_Notes\random\random.cpp.s
+
+.PHONY : Lecture_Notes\random\random.s
+
+# target to generate assembly for a file
+Lecture_Notes\random\random.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CECS_282.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CECS_282.dir\Lecture_Notes\random\random.cpp.s
+.PHONY : Lecture_Notes\random\random.cpp.s
+
 Projects\Solitare_Prime\Card.obj: Projects\Solitare_Prime\Card.cpp.obj
 
 .PHONY : Projects\Solitare_Prime\Card.obj
@@ -337,6 +364,9 @@ help:
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.obj
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.i
 	@echo ... Lecture_Notes/Intro_to_Header/SixPack.s
+	@echo ... Lecture_Notes/random/random.obj
+	@echo ... Lecture_Notes/random/random.i
+	@echo ... Lecture_Notes/random/random.s
 	@echo ... Projects/Solitare_Prime/Card.obj
 	@echo ... Projects/Solitare_Prime/Card.i
 	@echo ... Projects/Solitare_Prime/Card.s

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
   "CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.obj"
   "CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.obj"
+  "CMakeFiles/CECS_282.dir/Lecture_Notes/random/random.cpp.obj"
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.obj"
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.obj"
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.obj"
