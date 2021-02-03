@@ -38,19 +38,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ashur\CLionProjects\CECS-282
+CMAKE_SOURCE_DIR = "C:\Users\ashur\CLionProjects\CECS 282"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\CECS_282.dir\depend.make
@@ -63,135 +63,135 @@ include CMakeFiles\CECS_282.dir\flags.make
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.obj: "..\Lecture Notes\Intro to Header\CanMain.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\CanMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\CanMain.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\CanMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\CanMain.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/CanMain.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\CanMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\CanMain.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\CanMain.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.obj: "..\Lecture Notes\Intro to Header\Can.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\Can.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\Can.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\Can.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\Can.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\Can.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\Can.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\Can.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.obj: ..\Labs\CanLab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Labs\CanLab.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c C:\Users\ashur\CLionProjects\CECS-282\Labs\CanLab.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Labs\CanLab.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Labs\CanLab.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ashur\CLionProjects\CECS-282\Labs\CanLab.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Labs\CanLab.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Labs\CanLab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Labs\CanLab.cpp.s /c C:\Users\ashur\CLionProjects\CECS-282\Labs\CanLab.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Labs\CanLab.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Labs\CanLab.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.obj: "..\Lecture Notes\Intro to Header\SixPack.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\SixPack.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\SixPack.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\SixPack.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\SixPack.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/SixPack.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Lecture Notes\Intro to Header\SixPack.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Lecture_Notes\Intro_to_Header\SixPack.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Lecture Notes\Intro to Header\SixPack.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.obj: "..\Projects\Solitare Prime\Card.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Card.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Card.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Card.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Card.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Card.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Card.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Card.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj: "..\Projects\Solitare Prime\Deck.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Deck.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Deck.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Deck.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Deck.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\Deck.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\Deck.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj: CMakeFiles\CECS_282.dir\flags.make
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj: "..\Projects\Solitare Prime\SPMain.cpp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\SPMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj /FdCMakeFiles\CECS_282.dir\ /FS -c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\SPMain.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.i"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\SPMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\SPMain.cpp"
 <<
 
 CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.s"
 	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.s /c "C:\Users\ashur\CLionProjects\CECS-282\Projects\Solitare Prime\SPMain.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.s /c "C:\Users\ashur\CLionProjects\CECS 282\Projects\Solitare Prime\SPMain.cpp"
 <<
 
 # Object files for target CECS_282
@@ -216,9 +216,9 @@ CECS_282.exe: CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\Deck.cpp.obj
 CECS_282.exe: CMakeFiles\CECS_282.dir\Projects\Solitare_Prime\SPMain.cpp.obj
 CECS_282.exe: CMakeFiles\CECS_282.dir\build.make
 CECS_282.exe: CMakeFiles\CECS_282.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CECS_282.exe"
-	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\CECS_282.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CECS_282.dir\objects1.rsp @<<
- /out:CECS_282.exe /implib:CECS_282.lib /pdb:C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CECS_282.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CECS_282.exe"
+	C:\Users\ashur\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\CECS_282.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\CECS_282.dir\objects1.rsp @<<
+ /out:CECS_282.exe /implib:CECS_282.lib /pdb:"C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CECS_282.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -231,6 +231,6 @@ CMakeFiles\CECS_282.dir\clean:
 .PHONY : CMakeFiles\CECS_282.dir\clean
 
 CMakeFiles\CECS_282.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\ashur\CLionProjects\CECS-282 C:\Users\ashur\CLionProjects\CECS-282 C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug C:\Users\ashur\CLionProjects\CECS-282\cmake-build-debug\CMakeFiles\CECS_282.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\Users\ashur\CLionProjects\CECS 282" "C:\Users\ashur\CLionProjects\CECS 282" "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug" "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug" "C:\Users\ashur\CLionProjects\CECS 282\cmake-build-debug\CMakeFiles\CECS_282.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\CECS_282.dir\depend
 
