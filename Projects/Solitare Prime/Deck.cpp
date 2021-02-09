@@ -2,7 +2,7 @@
 #include <iostream>
 
 Deck::Deck() { //modified code from java
-    int temp = 0;
+    int cnt = 0;
     topCard = 0;
 
     char suit[4] = {'S','H','D','C'};
@@ -10,14 +10,14 @@ Deck::Deck() { //modified code from java
 
     for (char s : suit){  //improved to a for each loop
         for (char r : ranks){
-            storage[temp].setCard(r, s);
-            temp++;
+            storage[cnt].setCard(r, s);
+            cnt++;
         }
     }
 }
 
 void Deck::refreshDeck() { //Same as building a new deck!!!
-    int temp = 0;
+    int cnt = 0;
     topCard = 0;
 
     char suit[4] = {'S','H','D','C'};
@@ -25,8 +25,8 @@ void Deck::refreshDeck() { //Same as building a new deck!!!
 
     for (char s : suit){
         for (char r : ranks){
-            storage[temp].setCard(r, s);
-            temp++;
+            storage[cnt].setCard(r, s);
+            cnt++;
         }
     }
 }
@@ -50,5 +50,11 @@ int Deck::cardsLeft() {
 }
 
 void Deck::showDeck() {
+    for (int i = 0; i < 52; i++) {
+        if (i % 13 == 0)
+            std::cout << std::endl;
+        storage[i].showCard();
+    }
+    std::cout << std::endl;
 
 }
