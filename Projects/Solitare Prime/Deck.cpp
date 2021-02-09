@@ -1,11 +1,34 @@
 #include "Deck.h"
+#include <iostream>
 
-Deck::Deck() {
+Deck::Deck() { //modified code from java
+    int temp = 0;
+    topCard = 0;
 
+    char suit[4] = {'S','H','D','C'};
+    char ranks[13]={'A','2','3','4','5','6','7','8','9','T','J','Q','K'};
+
+    for (char s : suit){  //improved to a for each loop
+        for (char r : ranks){
+            storage[temp].setCard(r, s);
+            temp++;
+        }
+    }
 }
 
-void Deck::refreshDeck() {
+void Deck::refreshDeck() { //Same as building a new deck!!!
+    int temp = 0;
+    topCard = 0;
 
+    char suit[4] = {'S','H','D','C'};
+    char ranks[13]={'A','2','3','4','5','6','7','8','9','T','J','Q','K'};
+
+    for (char s : suit){
+        for (char r : ranks){
+            storage[temp].setCard(r, s);
+            temp++;
+        }
+    }
 }
 
 Card Deck::deal() {
@@ -13,11 +36,17 @@ Card Deck::deal() {
 }
 
 void Deck::shuffle() {
-
+    srand(time(0));
+    for(int i = 0; i < 52; i++){
+        int card = rand() % 52;
+        Card temp = storage[i];
+        storage[i] = storage[card];
+        storage[card] = temp;
+    }
 }
 
 int Deck::cardsLeft() {
-    return 0;
+    return 52 - topCard;
 }
 
 void Deck::showDeck() {
