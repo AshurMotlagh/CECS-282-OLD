@@ -25,7 +25,6 @@ bool isPrime(int num){
 
 void play(Deck deck){
     int pile = 0;
-    int sum = 0;
 
     for (int i =0; i< 52; i++){
         Card c = deck.deal();
@@ -39,9 +38,9 @@ void play(Deck deck){
         }
     }
     if (pile==0 && deck.cardsLeft() ==0)
-        cout<<"you win";
+        cout<<"you win" <<endl;
     else
-        cout<<"you lose";
+        cout<<"you lose"<<endl;
 }
 
 

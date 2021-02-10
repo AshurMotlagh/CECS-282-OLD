@@ -54,6 +54,7 @@ void Deck::showDeck() {
         if (i % 13 == 0)
             std::cout << std::endl;
         storage[i].showCard();
+        std::cout<<", ";
     }
     std::cout << std::endl;
 
