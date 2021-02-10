@@ -1,5 +1,7 @@
 #include "Deck.h"
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 
 Deck::Deck() { //modified code from java
     int cnt = 0;

@@ -13,7 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "K:/Projects/Clion/CECS-282/Projects/Solitare Prime/Deck.cpp" "K:/Projects/Clion/CECS-282/cmake-build-debug/CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.obj"
   "K:/Projects/Clion/CECS-282/Projects/Solitare Prime/SPMain.cpp" "K:/Projects/Clion/CECS-282/cmake-build-debug/CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

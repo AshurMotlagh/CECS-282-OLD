@@ -5,7 +5,7 @@ using namespace std;
 
 int menu(){
     int option;
-    cout<<("\nWelcome to Solitaire Prime! \n---------------------------- \n1. New Deck \n2. Display Deck \n3. Shuffle Deck \n4. Play Solitaire Prime \n5. Exit");
+    cout<<("\nWelcome to Solitaire Prime! \n---------------------------- \n1. New Deck \n2. Display Deck \n3. Shuffle Deck \n4. Play Solitaire Prime \n5. Exit")<<endl;
     cout<<("Please select the operation: ");
     cin>>option;
     cout<<("----------------------------")<<endl;

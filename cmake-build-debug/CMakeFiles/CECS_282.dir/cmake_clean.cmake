@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CECS_282.exe"
   "CECS_282.exe.manifest"
-  "CECS_282.lib"
   "CECS_282.pdb"
   "CMakeFiles/CECS_282.dir/Labs/CanLab.cpp.obj"
   "CMakeFiles/CECS_282.dir/Lecture_Notes/Intro_to_Header/Can.cpp.obj"
@@ -11,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Card.cpp.obj"
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/Deck.cpp.obj"
   "CMakeFiles/CECS_282.dir/Projects/Solitare_Prime/SPMain.cpp.obj"
+  "libCECS_282.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
